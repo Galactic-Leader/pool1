@@ -1,0 +1,113 @@
+::placeholder {
+    color: #bbbbbb!important;
+}
+
+.table-condensed td, .table-condensed th {
+    padding: .9rem;
+}
+.table td pre {
+    margin-bottom: 0;
+}
+.text-bold {
+    font-weight: 800;
+}
+.gfi-staking-form form {
+    padding-top: 2rem;
+}
+.gfi-staking-form form label {
+    font-size: 1.3rem;
+    font-weight: bold;
+    padding-bottom: .5rem;
+}
+
+body {
+    background: rgba(220, 220, 226, 0.534);
+    color: #1C3756;
+    /* color: #fff; */
+    /* color: rgb(254,246,230); */
+    font-family: 'Raleway', sans-serif!important;
+    font-weight: 500;
+
+}
+a, a:hover, a:active, a:link, a:visited {
+    color: rgb(151, 154, 156);
+}
+/* button.btn-primary:hover {
+    background: linear-gradient(90deg, #2765FF, #17D7FF);
+} */
+
+.gfi-staking table {
+    font-size: 1.2rem;
+}
+
+.gfi-staking-form input {
+    background: transparent!important;
+    color: #fff!important;
+    border-color: #fff!important;
+}
+.bg-white {
+    border-color: white!important;
+}
+
+small {
+    font-size: .8rem;
+    position: relative;
+    top:1px;
+}
+.App {
+    /* padding-top: 2rem; */
+}
+
+.purple-text {
+    color: #1C3756;
+}
+.purple-bg {
+    background: #1C3756;
+}
+.orange-text {
+    color:rgb(192, 192, 191)!important;
+}
+
+.btn {
+    background: rgb(22, 58, 158)!important;
+    border-color: rgb(22, 58, 158)!important;
+    font-weight: bold;
+    /* padding: .6rem 2rem; */
+    /* font-size: 1.2rem; */
+    /* border-radius: .5rem; */
+}
+.btn.orange {
+    background: rgb(29, 75, 202)!important;
+    color: #fff!important;
+    border-color: rgb(29, 75, 202)!important;
+}
+
+.tips {
+    color: rgb(159,173,181);
+}
+.text-normal, .text-normal th, .text-normal strong {
+    font-weight: normal!important;
+}
+.logo-column {
+    padding-left: 5rem;
+}
+@media all and (max-width: 768px) {
+    .apr-info {
+        padding-top: 2rem;
+        float: initial!important;
+        margin: auto;
+    }
+    .apr-info-child {
+        margin: auto;
+    }
+    .logo-column {
+        text-align: center;
+        padding-left: 15px;
+    }
+}
+.table {
+    color: rgb(28,55,86)!important;
+}
+strong, th {
+    font-weight: 800;
+}
